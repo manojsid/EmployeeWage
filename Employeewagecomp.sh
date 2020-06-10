@@ -28,7 +28,7 @@ checkattendence=$((RANDOM%3))
                                 echo "Employee is absent"
                                 WorkingHrs=0;
                                 Salary=0;
-
+                                ;;
 
         esac
 
