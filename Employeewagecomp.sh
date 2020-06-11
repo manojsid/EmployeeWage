@@ -15,14 +15,14 @@ checkattendence=$((RANDOM%3))
                                 echo "Employee is Working as a full time"
                                 WorkingHrs=8;
                                 Salary=$(($wagePerHr * $WorkingHrs))
-                                echo "Full time Employee Salary is: $Salary"
+                                echo -e "Full time Employee Salary is: $Salary"
                                 ;;
                                 
                 2)
                                 echo "Employee is working as part time"
                                 WorkingHrs=4;
                                 Salary=$(($wagePerHr * $WorkingHrs))
-                                echo "Part time Employee Salary is: $Salary"
+                                echo -e "Part time Employee Salary is: $Salary"
                                 ;;
                 0)
                                 echo "Employee is absent"
