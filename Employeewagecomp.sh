@@ -58,7 +58,7 @@ checkattendence=$((RANDOM%3))
 
         #statements
 done
-echo "Daily wage per month $TotalSalary"
+echo "Daily wage per month: $TotalSalary"
 
  }
 
