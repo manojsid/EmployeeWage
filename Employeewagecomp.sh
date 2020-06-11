@@ -10,6 +10,8 @@ TotalWorkingHrs=0;
 WorkingHrsPerDay=0;
 TotalSalary=0;
 
+EmployeeWage() {
+
 for (( days = 0; days <= $Max_working_days; days++ )); do
 
     if [[ $TotalWorkingHrs -le 100  ]]; then
@@ -56,3 +58,8 @@ checkattendence=$((RANDOM%3))
 
         #statements
 done
+echo "Daily wage per month $TotalSalary"
+
+ }
+
+EmployeeWage
